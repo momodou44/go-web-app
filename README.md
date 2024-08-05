@@ -25,6 +25,8 @@ Ce projet vise à automatiser le processus de build, de test et de déploiement 
 ## Architecture
 
 L'architecture du projet est la suivante :
+![Website](static/images/gitops.png)
+
 
 1. **Code Source** : Le code source de l'application est hébergé sur GitHub.
 2. **Pipeline CI/CD** :
