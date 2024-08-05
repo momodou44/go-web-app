@@ -30,7 +30,7 @@ L'architecture du projet est la suivante :
 1. **Code Source** : Le code source de l'application est hébergé sur GitHub.
 2. **Pipeline CI/CD** :
    - **Build et Test** : GitHub Actions est utilisé pour construire et tester l'application.
-   - **Image Docker** : Une image Docker est construite et poussée vers un registre Docker (Docker Hub ou AWS ECR).
+   - **Image Docker** : Une image Docker est construite et poussée vers docker hub.
 3. **Déploiement** :
    - **Helm Charts** : Les charts Helm sont utilisés pour décrire les ressources Kubernetes nécessaires.
    - **ArgoCD** : ArgoCD surveille le dépôt de configuration et synchronise l'état du cluster Kubernetes avec les charts Helm.
@@ -38,17 +38,17 @@ L'architecture du projet est la suivante :
 
 ## Deploiement
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
+Ceci est un site web simple écrit en Golang. Il utilise le paquet `net/http` pour servir les requêtes HTTP.
 
-### Running the server
+### Lancement de l'application
 
-To run the server, execute the following command:
+Pour lancer le serveur, exécutez la commande suivante :
 
 ```bash
 go run main.go
 ```
 
-The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
+Le serveur démarrera sur le port 8080. Vous pouvez y accéder en naviguant vers `http://localhost:8080/courses` dans votre navigateur web.
 
 ### Looks like this
 
