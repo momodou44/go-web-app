@@ -8,7 +8,6 @@ Ce projet met en place un pipeline CI/CD pour une application Golang en utilisan
 - [Technologies Utilisées](#technologies-utilisées)
 - [Architecture](#architecture)
 - [Déploiement](#déploiement)
-- [Contributions](#contributions)
 ## Introduction
 
 Ce projet vise à automatiser le processus de build, de test et de déploiement d'une application Golang. Le pipeline CI/CD garantit que chaque changement de code est automatiquement testé et déployé dans l'environnement Kubernetes.
@@ -36,7 +35,7 @@ L'architecture du projet est la suivante :
    - **ArgoCD** : ArgoCD surveille le dépôt de configuration et synchronise l'état du cluster Kubernetes avec les charts Helm.
 
 
-## Deploiement
+## déploiement
 
 Ceci est un site web simple écrit en Golang. Il utilise le paquet `net/http` pour servir les requêtes HTTP.
 
